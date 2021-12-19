@@ -1,5 +1,5 @@
 {
-  "name": "site-rpg",
+  "name": "react-input-mask",
   "version": "0.0.1",
   "description": "A react input mask component for text and currency.",
   "packageManager": "yarn@3.1.0",
