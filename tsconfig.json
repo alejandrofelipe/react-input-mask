@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": true,
+    "strict": true,
+    "jsx": "react",
+    "allowJs": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "outDir": "./build"
+  },
+  "include": ["src/lib/**/*.ts", "src/lib/**/*.tsx"],
+  "exclude": [
+    "./vendor",
+    "./node_modules"
+  ]
+}
