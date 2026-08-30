@@ -2,10 +2,16 @@
   "name": "react-input-mask",
   "version": "0.0.1",
   "description": "A react input mask component for text and currency.",
-  "packageManager": "yarn@3.1.0",
+  "packageManager": "yarn@4.18.0",
   "main": "build/input-mask.js",
   "types": "build/input-mask.d.ts",
-  "keywords": ["react", "input", "mask", "currency", "text"],
+  "keywords": [
+    "react",
+    "input",
+    "mask",
+    "currency",
+    "text"
+  ],
   "author": "alejandrofelipe",
   "scripts": {
     "serve": "http-server site -g -b",
@@ -23,15 +29,15 @@
   ],
   "devDependencies": {
     "@swc/core": "^1.2.113",
-    "@swc/helpers": "^0.2.14",
-    "@types/jest": "^27.0.3",
+    "@swc/helpers": "^0.5",
+    "@types/jest": "^30",
     "autoprefixer": "^10.4.0",
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.5.1",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
     "http-server": "^14.0.0",
-    "jest": "^27.4.5",
+    "jest": "^30",
     "mini-css-extract-plugin": "^2.4.5",
     "postcss": "^8.4.4",
     "postcss-loader": "^6.2.1",
@@ -40,10 +46,9 @@
     "sass-loader": "^12.3.0",
     "style-loader": "^3.3.1",
     "swc-loader": "^0.1.15",
-    "ts-jest": "^27.1.2",
-    "typescript": "^4.5.2",
+    "ts-jest": "^29",
+    "typescript": "^5",
     "webpack": "^5.64.4",
     "webpack-cli": "^4.9.1"
-  },
-  "dependencies": {}
+  }
 }
