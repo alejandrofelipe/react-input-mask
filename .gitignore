@@ -1,6 +1,4 @@
 /.yarn/*
 /.idea/*
-*-lock*
-*.lock*
 node_modules
 build
